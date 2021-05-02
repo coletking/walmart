@@ -1,3 +1,5 @@
+$primary: #041e42;
+
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 
@@ -7,19 +9,13 @@
     box-sizing: border-box;
 }
 
-.nav-area{
+.section{
+    background-color: $primary;
+}
+
+.list-menu{
     display: flex;
     justify-content: space-between;
 
-      }
-  
-
-    a{
-        text-decoration: none;
-    }
-
-
-.list-item a{
-    color: black;
-    text-decoration: none;
 }
+  
