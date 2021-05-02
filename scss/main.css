@@ -11477,4 +11477,24 @@ fieldset:disabled .btn {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+
+.con-pad {
+  margin-top: 78px;
+  z-index: index;
+}
+
+.con-pad {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 8000;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+}
+
+.section2 {
+  width: 100%;
+  margin-top: 60px;
+}
 /*# sourceMappingURL=main.css.map */
