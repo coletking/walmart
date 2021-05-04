@@ -11,13 +11,37 @@ $("#theTarget").skippr({
     easing: 'easeOutQuart',
     navType: 'bubble',
     childrenElementType: 'div',
-    arrows: true,
+    arrows: false,
     autoPlay: true,
     autoPlayDuration: 2000,
     keyboardOnAlways: true,
     hidePrevious: true
 
 });
+
+$(document).ready(function(){
+
+    $("#theTarget1").skippr();
+
+});
+
+$("#theTarget1").skippr({
+
+    transition: 'fade',
+    speed: 1000,
+    easing: 'easeOutQuart',
+    navType: 'bubble',
+    childrenElementType: 'div',
+    arrows: false,
+    autoPlay: true,
+    autoPlayDuration: 2000,
+    keyboardOnAlways: true,
+    hidePrevious: true
+
+});
+
+
+
 
 
 $('.new_hover1').mouseenter(function () {
@@ -127,9 +151,7 @@ $('.new_hover7').mouseleave(function () {
     $('.body-nav').show();
     $('.side-banner').hide();
 
-
-    
-    
+   
     
 });
 
